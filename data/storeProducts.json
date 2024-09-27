@@ -1,0 +1,75 @@
+{
+  "storeProducts":
+  [
+    {
+      "id": 1,
+      "store": 1,
+      "product": 1
+    },
+    {
+      "id": 2,
+      "store": 1,
+      "product": 2
+    },
+    {
+      "id": 3,
+      "store": 2,
+      "product": 2
+    },
+    {
+      "id": 4,
+      "store": 1,
+      "product": 3
+    },
+    {
+      "id": 5,
+      "store": 3,
+      "product": 3
+    },
+    {
+      "id": 6,
+      "store": 1,
+      "product": 5
+    },
+    {
+      "id": 7,
+      "store": 3,
+      "product": 1
+    },
+    {
+      "id": 8,
+      "store": 3,
+      "product": 5
+    },
+    {
+      "id": 9,
+      "store": 1,
+      "product": 4
+    },
+    {
+      "id": 10,
+      "store": 2,
+      "product": 5
+    },
+    {
+      "id": 11,
+      "store": 4,
+      "product": 2
+    },
+    {
+      "id": 12,
+      "store": 4,
+      "product": 3
+    },
+    {
+      "id": 13,
+      "store": 4,
+      "product": 1
+    },
+    {
+      "id": 14,
+      "store": 4,
+      "product": 5
+    }
+  ]
+}

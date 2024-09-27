@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Royal Milk Tea",
+      "price": 4.8,
+      "toppings": ["Milk foam", "Grass jelly"],
+      "isTrending": true
+    },
+    {
+      "id": 2,
+      "name": "Green Milk Tea",
+      "price": 4.6,
+      "toppings": ["Popping bubbles", "Custard pudding"]
+    },
+    {
+      "id": 3,
+      "name": "Oolong Milk Tea",
+      "price": 5.1,
+      "toppings": ["Tapioca pearls", "Basil seeds"]
+    },
+    {
+      "id": 4,
+      "name": "Blueberry Milk Tea",
+      "price": 5.1,
+      "toppings": ["Popping bubbles", "Grass jelly", "Basil seeds"]
+    },
+    {
+      "id": 5,
+      "name": "Mango Milk Tea",
+      "price": 5.1,
+      "toppings": ["Custard pudding", "Grass jelly", "Basil seeds"],
+      "isTrending": true
+    }
+  ]
+}

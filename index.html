@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>ND MILK TEA</title>
+</head>
+<body>
+  <div id="side-bar">
+    <div id="side-bar-header">Milk Tea Store</div>
+    <ul id="side-bar-items">
+    </ul>
+  </div>
+  <div id="main-page">
+    <div id="header"></div>
+    <div id="filter">
+      <button id="button-filter">Filter</button>
+      <div class="sorting-option">
+        <label for="sorting-option">Sort By</label>
+        <select name="sorting-option" id="sorting-option">
+          <option value="0">Name (A-Z)</option>
+          <option value="1">Name (Z-A)</option>
+          <option value="2">Price (&#8593;)</option>
+          <option value="3">Price (&#8595;)</option>
+        </select>
+      </div>
+    </div>
+    <div id="filter-panel">
+      <p class="bold">Toppings</p>
+      <div id="filter-panel-grid">
+        <div class="filter-panel-item">
+          <input type="checkbox" id="milk-foam" value="Milk foam">
+          <label for="milk-foam">Milk foam</label>
+        </div>
+        <div class="filter-panel-item">
+          <input type="checkbox" id="tapioca-pearls" value="Tapioca pearls">
+          <label for="tapioca-pearls">Tapioca pearls</label>
+        </div>
+        <div class="filter-panel-item">
+          <input type="checkbox" id="popping-bubbles" value="Popping bubbles">
+          <label for="popping-bubbles">Popping bubbles</label>
+        </div>      
+        <div class="filter-panel-item">
+          <input type="checkbox" id="custard-pudding" value="Custard pudding">
+          <label for="custard-pudding">Custard pudding</label>
+        </div>   
+        <div class="filter-panel-item">
+          <input type="checkbox" id="grass-jelly" value="Grass jelly">
+          <label for="grass-jelly">Grass jelly</label>
+        </div>   
+        <div class="filter-panel-item">
+          <input type="checkbox" id="basil-seeds" value="Basil seeds">
+          <label for="basil-seeds">Basil seeds</label>
+        </div>   
+      </div>
+    </div>
+    <div id="menu">
+
+    </div>
+  </div>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
